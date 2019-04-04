@@ -219,7 +219,6 @@ footer {
 }
 
 .logo {
-    background-color: blue;
     position: absolute;
     left: 0;
 }
@@ -234,4 +233,24 @@ footer {
     justify-content: center;
 
 }
+}
+
+@media (max-width: 800px) and (min-width: 500px) {
+
+    .cta img{
+        display: none;
+    }
+
+    .cta {display: flex;
+    justify-content: space-evenly;
+    }
+ header img {
+     display: none;
+ }
+ header nav {
+    display: flex;
+    margin: 50px 0 0 80px;
+}
+
+
 }
